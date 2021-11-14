@@ -1,0 +1,220 @@
+html {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(3, 3, 3, 0.767) 0%, rgb(99, 99, 105) 15%, rgb(255, 255, 255) 100%);
+}
+
+#logo {
+    opacity: 250%;
+    position: absolute;
+    right: 20px;
+    height: 160px;
+    width: 201px;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgba(255, 255, 255, 0.945);
+    text-shadow: black 5px 5px;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+    text-shadow: grey 5px 5px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+li {
+    display: inline-flex;
+    justify-content: center;
+    width: 25%;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+    li {
+        display: block;
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1080px) {
+   #logo {
+        display: none;
+    } 
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: 250px;
+    width: 400px;
+}
+
+#mission {
+    background-image: url('../images/brooklyn.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: saturation;
+    max-width: 100%;
+    display: flex;
+    height: 40rem;
+    align-items: center;
+}
+
+#mission .text {
+    text-align: center;
+    max-height: 14rem;
+    width: 100%;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+#mission h3 {
+    font-weight: 400;
+}
+
+#portfolio {
+    max-width: 100%;
+    margin: 60px;
+    background-color: rgb(240, 238, 238);
+    border: 1px solid grey;
+}
+
+#portfolio .text {
+    text-align: center;
+    margin: 30px auto;
+}
+
+#portfolio h3 {
+    padding: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.property-text {
+    font-style: italic;
+}
+
+.images-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images-container .image-container {
+    width: 65%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.center {
+    justify-items: center;
+    width: 35rem;
+    height: 100%;
+    margin: 10px;
+    border: 1px solid grey;
+    padding-top: 40px;
+    box-shadow: grey 5px 5px;
+}
+
+#team {
+    max-width: 100%;
+    margin: 60px;
+    background-image: url('../images/keys.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 100px;
+}
+
+#team .center {
+    width: 20rem;
+    background-color: black;
+    color: white;
+    margin: 50px;
+    height: 40rem;
+    min-width: 20rem;
+    box-shadow: none;
+    border: none;
+}
+
+#team .image-container {
+   padding-top: 10px;
+   padding-bottom: 20px;
+   height: 300px;
+}
+
+#team .text {
+    padding: 0px;
+}
+
+#team h1 {
+    color: rgb(249, 249, 249);
+    text-shadow: rgb(94, 94, 94);
+}
+
+#team h4 {
+    line-height: 5rem;
+}
+
+#team h3 {
+    line-height: 3rem;
+    padding: 30px 30px 30px 30px;
+    font-weight: 400;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.employee img {
+    width: 100%;
+    height: 300px;
+}
+
+h3.jason {
+    position: relative;
+    top: -30px;
+}
+
+footer {
+    position: relative;
+    top: -40px;
+}
