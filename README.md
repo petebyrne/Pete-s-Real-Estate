@@ -14,4 +14,4 @@ The front page of a web-site used to promote a fictitious real estate company, u
 
 ## Launch
 
-Visit https://petebyrne.github.io/teaCozy/ . The website consists of a single page, with text, images and links. It's hosted by GitHub Pages.
+Visit https://petebyrne.github.io/Pete-s-Real-Estate/ . The website consists of a single page, with text, images and links. It's hosted by GitHub Pages.
